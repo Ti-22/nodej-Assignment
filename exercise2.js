@@ -13,3 +13,5 @@ fs.readFile('create.txt', 'utf-8', (err, data) => {
         })
     }
 })
+
+/* here we get data from file split it and then convert it into number and sort it, after that sorted array is converted into string by join function and the write it into new file */
